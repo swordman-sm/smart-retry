@@ -7,7 +7,7 @@ import com.github.smartretry.core.serializer.RetrySerializer;
 import com.github.smartretry.core.dao.RetryTaskMapper;
 import com.github.smartretry.core.processor.impl.DefaultRetryHandlerPostProcessor;
 import com.github.smartretry.core.processor.impl.DefaultRetryProcessor;
-import com.github.smartretry.core.impl.DefaultRetryTaskFactory;
+import com.github.smartretry.core.factory.impl.DefaultRetryTaskFactory;
 import com.github.smartretry.core.handler.impl.MethodRetryHandler;
 import com.github.smartretry.core.listener.RetryListener;
 import com.github.smartretry.core.registry.RetryHandlerRegistry;

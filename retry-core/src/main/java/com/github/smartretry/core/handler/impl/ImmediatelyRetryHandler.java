@@ -3,7 +3,7 @@ package com.github.smartretry.core.handler.impl;
 import com.github.smartretry.core.exception.NoRetryException;
 import com.github.smartretry.core.context.RetryContext;
 import com.github.smartretry.core.RetryTask;
-import com.github.smartretry.core.RetryTaskFactory;
+import com.github.smartretry.core.factory.RetryTaskFactory;
 import com.github.smartretry.core.dao.RetryTaskMapper;
 import com.github.smartretry.core.handler.GenericRetryHandler;
 import lombok.extern.slf4j.Slf4j;

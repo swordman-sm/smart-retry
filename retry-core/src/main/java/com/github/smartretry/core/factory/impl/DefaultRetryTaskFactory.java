@@ -1,9 +1,9 @@
-package com.github.smartretry.core.impl;
+package com.github.smartretry.core.factory.impl;
 
 import com.github.smartretry.core.handler.RetryHandler;
 import com.github.smartretry.core.serializer.RetrySerializer;
 import com.github.smartretry.core.RetryTask;
-import com.github.smartretry.core.RetryTaskFactory;
+import com.github.smartretry.core.factory.RetryTaskFactory;
 import com.github.smartretry.core.handler.impl.ImmediatelyRetryHandler;
 import com.github.smartretry.core.util.ServiceLoaderUtils;
 

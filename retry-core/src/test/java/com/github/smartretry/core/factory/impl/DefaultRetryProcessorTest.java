@@ -1,4 +1,4 @@
-package com.github.smartretry.core.impl;
+package com.github.smartretry.core.factory.impl;
 
 import com.github.smartretry.core.processor.impl.DefaultRetryProcessor;
 import com.github.smartretry.core.serializer.RetrySerializer;

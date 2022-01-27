@@ -1,9 +1,9 @@
 package com.github.smartretry.core.processor.impl;
 
+import com.github.smartretry.core.factory.impl.DefaultRetryTaskFactory;
 import com.github.smartretry.core.handler.RetryHandler;
-import com.github.smartretry.core.impl.DefaultRetryTaskFactory;
 import com.github.smartretry.core.processor.RetryHandlerPostProcessor;
-import com.github.smartretry.core.RetryTaskFactory;
+import com.github.smartretry.core.factory.RetryTaskFactory;
 import com.github.smartretry.core.dao.RetryTaskMapper;
 import com.github.smartretry.core.handler.impl.ImmediatelyRetryHandler;
 import com.github.smartretry.core.handler.impl.def.DefaultRetryHandler;

@@ -1,6 +1,6 @@
 package com.github.smartretry.core.serializer;
 
-import com.github.smartretry.core.impl.DefaultRetryTaskFactory;
+import com.github.smartretry.core.factory.impl.DefaultRetryTaskFactory;
 
 /**
  * 用于序列化、反序列化handle的请求参数
