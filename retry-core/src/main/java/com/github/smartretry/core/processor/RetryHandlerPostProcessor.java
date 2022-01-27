@@ -1,4 +1,6 @@
-package com.github.smartretry.core;
+package com.github.smartretry.core.processor;
+
+import com.github.smartretry.core.handler.RetryHandler;
 
 /**
  * RetryHandler的后置处理器

@@ -1,4 +1,4 @@
-package com.github.smartretry.core;
+package com.github.smartretry.core.serializer;
 
 import com.github.smartretry.core.impl.DefaultRetryTaskFactory;
 

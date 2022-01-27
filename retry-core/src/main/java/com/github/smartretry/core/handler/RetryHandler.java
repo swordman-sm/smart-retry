@@ -1,4 +1,4 @@
-package com.github.smartretry.core;
+package com.github.smartretry.core.handler;
 
 import com.github.smartretry.core.listener.RetryListener;
 

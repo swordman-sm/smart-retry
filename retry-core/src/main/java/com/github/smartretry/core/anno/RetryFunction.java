@@ -1,4 +1,6 @@
-package com.github.smartretry.core;
+package com.github.smartretry.core.anno;
+
+import com.github.smartretry.core.handler.RetryHandler;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

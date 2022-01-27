@@ -1,7 +1,7 @@
 package com.github.smartretry.spring4;
 
 import com.github.smartretry.core.RetryTask;
-import com.github.smartretry.core.RetryTaskMapper;
+import com.github.smartretry.core.dao.RetryTaskMapper;
 import org.springframework.context.EnvironmentAware;
 import org.springframework.core.env.Environment;
 import org.springframework.jdbc.core.JdbcTemplate;

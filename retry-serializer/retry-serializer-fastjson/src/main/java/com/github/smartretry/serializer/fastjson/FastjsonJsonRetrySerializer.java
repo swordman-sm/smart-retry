@@ -1,7 +1,7 @@
 package com.github.smartretry.serializer.fastjson;
 
 import com.alibaba.fastjson.JSON;
-import com.github.smartretry.core.RetrySerializer;
+import com.github.smartretry.core.serializer.RetrySerializer;
 import org.kohsuke.MetaInfServices;
 
 /**

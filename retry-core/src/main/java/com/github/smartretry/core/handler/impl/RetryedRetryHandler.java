@@ -1,11 +1,11 @@
-package com.github.smartretry.core.impl;
+package com.github.smartretry.core.handler.impl;
 
-import com.github.smartretry.core.NoRetryException;
-import com.github.smartretry.core.RetryContext;
-import com.github.smartretry.core.RetrySerializer;
+import com.github.smartretry.core.exception.NoRetryException;
+import com.github.smartretry.core.context.RetryContext;
+import com.github.smartretry.core.serializer.RetrySerializer;
 import com.github.smartretry.core.RetryTask;
-import com.github.smartretry.core.RetryTaskMapper;
-import com.github.smartretry.core.support.GenericRetryHandler;
+import com.github.smartretry.core.dao.RetryTaskMapper;
+import com.github.smartretry.core.handler.GenericRetryHandler;
 import com.github.smartretry.core.util.ServiceLoaderUtils;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
@@ -16,7 +16,7 @@ import lombok.extern.slf4j.Slf4j;
  * @author yuni[mn960mn@163.com]
  */
 @Slf4j
-class RetryedRetryHandler extends ExecuteRetryHandler {
+public class RetryedRetryHandler extends ExecuteRetryHandler {
 
     private RetrySerializer retrySerializer;
 

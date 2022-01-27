@@ -1,7 +1,7 @@
 package com.github.smartretry.spring4.aop;
 
-import com.github.smartretry.core.RetryFunction;
-import com.github.smartretry.core.RetryHandler;
+import com.github.smartretry.core.anno.RetryFunction;
+import com.github.smartretry.core.handler.RetryHandler;
 import com.github.smartretry.core.registry.RetryHandlerRegistry;
 import com.github.smartretry.core.util.RetryHandlerUtils;
 import org.aopalliance.intercept.MethodInterceptor;

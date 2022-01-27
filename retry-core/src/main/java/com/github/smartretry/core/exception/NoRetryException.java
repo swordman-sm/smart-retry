@@ -1,4 +1,4 @@
-package com.github.smartretry.core;
+package com.github.smartretry.core.exception;
 
 /**
  * 抛出此异常，系统不会进行重试。直接当失败处理

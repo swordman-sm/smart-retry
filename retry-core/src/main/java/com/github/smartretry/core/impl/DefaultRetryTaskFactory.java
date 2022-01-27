@@ -1,9 +1,10 @@
 package com.github.smartretry.core.impl;
 
-import com.github.smartretry.core.RetryHandler;
-import com.github.smartretry.core.RetrySerializer;
+import com.github.smartretry.core.handler.RetryHandler;
+import com.github.smartretry.core.serializer.RetrySerializer;
 import com.github.smartretry.core.RetryTask;
 import com.github.smartretry.core.RetryTaskFactory;
+import com.github.smartretry.core.handler.impl.ImmediatelyRetryHandler;
 import com.github.smartretry.core.util.ServiceLoaderUtils;
 
 import java.time.LocalDateTime;

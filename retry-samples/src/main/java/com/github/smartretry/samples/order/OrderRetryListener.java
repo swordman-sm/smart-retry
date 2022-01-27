@@ -1,6 +1,6 @@
 package com.github.smartretry.samples.order;
 
-import com.github.smartretry.core.RetryContext;
+import com.github.smartretry.core.context.RetryContext;
 import com.github.smartretry.core.listener.RetryListener;
 import com.github.smartretry.samples.order.entity.Order;
 import lombok.extern.slf4j.Slf4j;

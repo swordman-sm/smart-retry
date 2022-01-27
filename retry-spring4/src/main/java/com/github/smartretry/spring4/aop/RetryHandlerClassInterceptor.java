@@ -1,6 +1,6 @@
 package com.github.smartretry.spring4.aop;
 
-import com.github.smartretry.core.RetryHandler;
+import com.github.smartretry.core.handler.RetryHandler;
 import com.github.smartretry.core.registry.RetryHandlerRegistry;
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;

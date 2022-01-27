@@ -1,9 +1,10 @@
 package com.github.smartretry.core.impl;
 
-import com.github.smartretry.core.RetrySerializer;
+import com.github.smartretry.core.processor.impl.DefaultRetryProcessor;
+import com.github.smartretry.core.serializer.RetrySerializer;
 import com.github.smartretry.core.RetryTask;
-import com.github.smartretry.core.RetryTaskMapper;
-import com.github.smartretry.core.support.GenericRetryHandler;
+import com.github.smartretry.core.dao.RetryTaskMapper;
+import com.github.smartretry.core.handler.GenericRetryHandler;
 import com.github.smartretry.core.util.ServiceLoaderUtils;
 import org.junit.Before;
 import org.junit.Test;

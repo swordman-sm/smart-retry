@@ -1,6 +1,6 @@
 package com.github.smartretry.spring4.autoconfigure;
 
-import com.github.smartretry.core.RetryTaskMapper;
+import com.github.smartretry.core.dao.RetryTaskMapper;
 import com.github.smartretry.spring4.BeanConstants;
 import com.github.smartretry.spring4.JdbcRetryTaskMapper;
 import com.github.smartretry.spring4.RetryAnnotationBeanPostProcessor;

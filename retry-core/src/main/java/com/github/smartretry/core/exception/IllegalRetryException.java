@@ -1,4 +1,4 @@
-package com.github.smartretry.core;
+package com.github.smartretry.core.exception;
 
 /**
  * @author yuni[mn960mn@163.com]

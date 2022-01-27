@@ -1,6 +1,6 @@
 package com.github.smartretry.spring4.aop;
 
-import com.github.smartretry.core.RetryHandler;
+import com.github.smartretry.core.handler.RetryHandler;
 import com.github.smartretry.core.util.RetryHandlerUtils;
 import org.springframework.aop.ClassFilter;
 import org.springframework.aop.MethodMatcher;

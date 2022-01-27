@@ -1,7 +1,8 @@
 package com.github.smartretry.core.support;
 
-import com.github.smartretry.core.IllegalRetryException;
-import com.github.smartretry.core.RetryHandler;
+import com.github.smartretry.core.exception.IllegalRetryException;
+import com.github.smartretry.core.handler.RetryHandler;
+import com.github.smartretry.core.handler.impl.def.DefaultRetryHandler;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
 

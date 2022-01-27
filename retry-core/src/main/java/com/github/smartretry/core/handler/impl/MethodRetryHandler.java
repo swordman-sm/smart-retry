@@ -1,8 +1,8 @@
-package com.github.smartretry.core.impl;
+package com.github.smartretry.core.handler.impl;
 
-import com.github.smartretry.core.RetryFunction;
+import com.github.smartretry.core.anno.RetryFunction;
 import com.github.smartretry.core.listener.RetryListener;
-import com.github.smartretry.core.support.GenericRetryHandler;
+import com.github.smartretry.core.handler.GenericRetryHandler;
 import com.github.smartretry.core.util.RetryHandlerUtils;
 import org.apache.commons.lang3.StringUtils;
 

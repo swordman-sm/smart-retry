@@ -1,6 +1,6 @@
 package com.github.smartretry.core.listener;
 
-import com.github.smartretry.core.RetryContext;
+import com.github.smartretry.core.context.RetryContext;
 import lombok.extern.slf4j.Slf4j;
 
 /**

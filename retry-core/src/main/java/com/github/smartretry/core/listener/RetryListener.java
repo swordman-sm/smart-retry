@@ -1,7 +1,7 @@
 package com.github.smartretry.core.listener;
 
-import com.github.smartretry.core.RetryContext;
-import com.github.smartretry.core.RetryHandler;
+import com.github.smartretry.core.context.RetryContext;
+import com.github.smartretry.core.handler.RetryHandler;
 
 /**
  * 重试监听器，可以在任务重试、任务完成、任务失败等时机进行回调

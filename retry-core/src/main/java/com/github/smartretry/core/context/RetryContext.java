@@ -1,5 +1,6 @@
-package com.github.smartretry.core;
+package com.github.smartretry.core.context;
 
+import com.github.smartretry.core.handler.RetryHandler;
 import lombok.Getter;
 import lombok.Setter;
 

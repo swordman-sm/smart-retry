@@ -1,12 +1,13 @@
-package com.github.smartretry.core.impl;
+package com.github.smartretry.core.processor.impl;
 
-import com.github.smartretry.core.RetryHandler;
-import com.github.smartretry.core.RetryProcessor;
-import com.github.smartretry.core.RetrySerializer;
+import com.github.smartretry.core.handler.RetryHandler;
+import com.github.smartretry.core.processor.RetryProcessor;
+import com.github.smartretry.core.serializer.RetrySerializer;
 import com.github.smartretry.core.RetryTask;
-import com.github.smartretry.core.RetryTaskMapper;
-import com.github.smartretry.core.support.DefaultRetryHandler;
-import com.github.smartretry.core.support.GenericRetryHandler;
+import com.github.smartretry.core.dao.RetryTaskMapper;
+import com.github.smartretry.core.handler.impl.RetryedRetryHandler;
+import com.github.smartretry.core.handler.impl.def.DefaultRetryHandler;
+import com.github.smartretry.core.handler.GenericRetryHandler;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 

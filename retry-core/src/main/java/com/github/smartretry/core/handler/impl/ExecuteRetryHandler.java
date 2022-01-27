@@ -1,11 +1,11 @@
-package com.github.smartretry.core.impl;
+package com.github.smartretry.core.handler.impl;
 
-import com.github.smartretry.core.RetryContext;
+import com.github.smartretry.core.context.RetryContext;
 import com.github.smartretry.core.RetryTask;
-import com.github.smartretry.core.RetryTaskMapper;
+import com.github.smartretry.core.dao.RetryTaskMapper;
 import com.github.smartretry.core.listener.QuietRetryListener;
 import com.github.smartretry.core.listener.RetryListener;
-import com.github.smartretry.core.support.GenericRetryHandler;
+import com.github.smartretry.core.handler.GenericRetryHandler;
 import org.apache.commons.lang3.StringUtils;
 
 /**

@@ -1,7 +1,7 @@
 package com.github.smartretry.samples.order;
 
-import com.github.smartretry.core.RetryFunction;
-import com.github.smartretry.core.RetryHandler;
+import com.github.smartretry.core.anno.RetryFunction;
+import com.github.smartretry.core.handler.RetryHandler;
 import com.github.smartretry.samples.order.entity.Order;
 import com.github.smartretry.samples.order.model.CreateOrderReq;
 import lombok.extern.slf4j.Slf4j;

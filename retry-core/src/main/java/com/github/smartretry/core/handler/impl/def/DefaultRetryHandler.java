@@ -1,7 +1,8 @@
-package com.github.smartretry.core.support;
+package com.github.smartretry.core.handler.impl.def;
 
-import com.github.smartretry.core.IllegalRetryException;
-import com.github.smartretry.core.RetryHandler;
+import com.github.smartretry.core.exception.IllegalRetryException;
+import com.github.smartretry.core.handler.GenericRetryHandler;
+import com.github.smartretry.core.handler.RetryHandler;
 import com.github.smartretry.core.listener.RetryListener;
 
 import java.lang.reflect.ParameterizedType;

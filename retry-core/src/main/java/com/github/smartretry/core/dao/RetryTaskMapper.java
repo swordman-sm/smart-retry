@@ -1,4 +1,6 @@
-package com.github.smartretry.core;
+package com.github.smartretry.core.dao;
+
+import com.github.smartretry.core.RetryTask;
 
 import java.util.List;
 

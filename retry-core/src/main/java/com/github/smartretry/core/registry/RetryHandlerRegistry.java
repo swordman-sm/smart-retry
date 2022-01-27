@@ -1,7 +1,7 @@
 package com.github.smartretry.core.registry;
 
-import com.github.smartretry.core.RetryHandler;
-import com.github.smartretry.core.RetryHandlerPostProcessor;
+import com.github.smartretry.core.handler.RetryHandler;
+import com.github.smartretry.core.processor.RetryHandlerPostProcessor;
 
 import java.util.Map;
 import java.util.Optional;

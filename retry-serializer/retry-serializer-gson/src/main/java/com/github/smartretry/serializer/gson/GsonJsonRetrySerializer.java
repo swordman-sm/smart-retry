@@ -1,6 +1,6 @@
 package com.github.smartretry.serializer.gson;
 
-import com.github.smartretry.core.RetrySerializer;
+import com.github.smartretry.core.serializer.RetrySerializer;
 import com.google.gson.Gson;
 import org.kohsuke.MetaInfServices;
 

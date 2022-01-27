@@ -1,6 +1,6 @@
-package com.github.smartretry.core.support;
+package com.github.smartretry.core.handler;
 
-import com.github.smartretry.core.RetryHandler;
+import com.github.smartretry.core.handler.RetryHandler;
 
 /**
  * @author yuni[mn960mn@163.com]
